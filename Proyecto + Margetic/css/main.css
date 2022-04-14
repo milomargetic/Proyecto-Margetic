@@ -1,0 +1,181 @@
+/*reset css*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*caracteristicas del fondo de body*/
+
+body{
+    background-color: #828989;
+}
+
+/*INDEX*/
+
+h1 {
+    color: #F9F9F9;
+    font-size: 95px;
+    font-family: 'Hurricane', cursive; 
+    text-align: center;
+}
+
+.encabezado{
+    display: inline-flex;
+    align-items: center;
+    height: 50px;
+    margin: 80px;
+    padding: 30px;
+}
+
+.principal{
+    font-size: 60px;
+    padding: 50px;
+    text-align: center;
+    background-image: url('../img/Skating\ foto.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    font-family: 'Moon Dance', cursive;
+    color: whitesmoke;
+}
+
+
+/*barra menu*/
+.menu{
+    background-color: #21D1DD   ;
+    position: sticky;
+    top: 0;
+    text-align: center;
+}
+
+.menu li {
+    background-color: black;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 30px;
+}
+
+header nav ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: whitesmoke;
+    margin: 35px;
+    text-transform: uppercase;
+}
+
+/*GALERÍA*/
+
+.galeria__div__header--center{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    margin: 80px;
+    padding: 30px;
+}
+
+.galeria__main__div__h2--center{
+    font-size: 40px;
+    font-family: 'Hurricane', cursive; 
+    text-align: center;
+    color: whitesmoke;
+}
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+/*PRODUCTOS*/
+
+.encabezado__productos{
+    display: inline-flex;
+    align-items: center;
+    height: 50px;
+    margin: 80px;
+    padding: 30px;
+}
+
+.productos__main__div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 15px;
+    font-size: 35px;
+}
+
+.productos__main{
+    font-size: 40px;
+    font-family: 'Moon Dance', cursive;
+    text-align: center;
+    color: #F9F9F9;
+}
+
+.productos__lista{
+    margin: 15px;
+    list-style: none;
+    font-family: 'Moon Dance', cursive;
+    font-size: 40px;
+    text-align: center;
+    color: #F9F9F9;
+}
+
+/*Sobre Nosotros*/
+
+.encabezado__sobrenosotros{
+    display: inline-flex;
+    align-items: center;
+    font-size: 90px;
+    font-family: 'Hurricane', cursive;
+}
+
+.sobrenosotros__historia{
+    font-size: 30px;
+    font-family: 'Moon Dance', cursive;
+    text-align: center;
+    color: #F9F9F9;
+    background-image: url('../img/Skating\ foto.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+
+.sobrenosotros__historia__texto{
+    size: 100px;
+    font-family: 'Moon Dance', cursive;
+    font-size: 60px;
+    color: #F9F9F9;
+}
+
+/*CONTACTO*/
+
+.encabezado__contacto{
+    display: inline-flex;
+    align-items: center;
+}
+
+.contacto{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    font-family: 'Moon Dance', cursive;
+    font-size: 45px;
+    color: #F9F9F9;
+}
+
+footer{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 80px;
+    color: #F9F9F9;
+}
+
+.redes{
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+}
